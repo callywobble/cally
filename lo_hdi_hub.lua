@@ -1,10 +1,10 @@
 -- lo_hdi Hub – Made for Delta Executor
 -- Dev: lo_hdi | Features: Fly, Speed, High Jump, Invisible, God Mode + GUI + Anti-Kick + Secure Key Access
 
-local access_key = "lo_hdi_dev" -- 🔑 غيّرها بمفتاحك السري
+local access_key = "wiz" -- 🔑 key
 
 if _G.MyKey ~= access_key then
-    game.Players.LocalPlayer:Kick("🔒 مفتاح غير صحيح!")
+    game.Players.LocalPlayer:Kick("🔒 how tf u get the key wrong")
     return
 end
 
@@ -17,7 +17,7 @@ local hum = char:WaitForChild("Humanoid")
 local UIS = game:GetService("UserInputService")
 local RS = game:GetService("RunService")
 
--- 🛡️ منع الطرد والباند
+-- 🛡️ gay 
 do
     local mt = getrawmetatable(game)
     setreadonly(mt, false)
@@ -31,7 +31,7 @@ end
 
 -- 🎨 GUI
 local gui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
-gui.Name = "lo_hdi_Hub"
+gui.Name = "for wizz or sum"
 
 local frame = Instance.new("Frame", gui)
 frame.Size = UDim2.new(0, 320, 0, 520)
