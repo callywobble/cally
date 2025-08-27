@@ -1,6 +1,4 @@
--- lo_hdi Hub – Made for Delta Executor
--- Dev: lo_hdi | Features: Fly, Speed, High Jump, Invisible, God Mode + GUI + Anti-Kick + Secure Key Access
-
+i hate jigger boos
 local access_key = "wiz" -- 🔑 key
 
 if _G.MyKey ~= access_key then
